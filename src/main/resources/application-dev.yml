@@ -1,0 +1,14 @@
+# application-dev.yml
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/college
+    username: postgres
+    password: postgresql@2024
+
+  jpa:
+     hibernate:
+        ddl-auto: create-drop
+
+
+server:
+  port: 8081

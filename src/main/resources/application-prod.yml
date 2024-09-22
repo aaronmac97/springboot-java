@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/college
+    username: postgres
+    password: postgresql@2024
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+   port: 9090
